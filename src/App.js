@@ -33,7 +33,7 @@ export default function App() {
 
     return (
         <div>
-            <Header setPage={setPage} currentPage={page}/>
+            <Header setPage={setPage} setCurrentPage={page}/>
             {renderPage}
             <Footer />
         </div>
