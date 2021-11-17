@@ -1,6 +1,41 @@
-import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import React, {useState} from "react";
+import Header from "./components/Header";
+import Project from "./components/Project";
+import Footer from "./components/Footer";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
+import Resume from "./components/pages/Resume";
 
-const App = () => <PortfolioContainer/>;
+export default function App() {
+    //useState to kepp track of which page to render
+    const [page, setPage] = useState("About");
 
-export default App;
+    //Determine which page to display
+    const renderPage;
+    switch (page) {
+        case "About":
+          renderPage = <About />;
+          break;
+        case "Portfolio":
+          renderPage = <Portfolio />;
+          break;
+        case "Resume":
+            renderPage = <Resume />;
+            break;
+        case "Contact":
+            renderPage = <Contact />;
+            break;
+        default:
+            renderPage = <About />;
+            break;        
+    }
+
+    return (
+        <div>
+            <Header setPage={setPage} currentPage={page}/>
+            {renderPage}
+            <Footer />
+        </div>
+    );
+}
