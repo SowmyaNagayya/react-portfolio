@@ -25,9 +25,9 @@ export default function About() {
       <div className="row mx-3">
         <h6 className="my-5 text-center">My name is Sowmya Nagayya and I'm a Computer Science Engineer of the Vishveshwaraya University, Karnataka, India</h6>
         <p className="mb-4">abc</p>
-        <p className="mb-4"></p>
-        <p className="mb-4"></p>
-        <p className="mb-4"></p>
+        <p className="mb-4">abc</p>
+        <p className="mb-4">abc</p>
+        <p className="mb-4">abc</p>
       </div>
     </div>
   );
