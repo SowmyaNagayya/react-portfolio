@@ -36,6 +36,11 @@ export default function Contact() {
     
   }
 
+  // Make text of error messages red
+  const errorStyle = {
+    color: "red"
+}
+
   return (
     <div className="container my-5">
       <div className="row justify-content-center">
@@ -46,17 +51,17 @@ export default function Contact() {
               <label htmlFor="nameInput" className="form-label">Name</label>
               <input type="text" value={formData.name} name="name" onChange={handleInputChange} />
             </div>
-            <p id="nameError">{errorMessage}</p>
+            <p style={errorStyle}>{errorMessage}</p>
             <div className="mb-3">
               <label htmlFor="emailInput" className="form-label">Email Address</label>
               <input value={formData.email} type="text" name="email" onChange={handleInputChange} />
             </div>
-            <p id="emailAddressError">{errorMessage}</p>
+            <p style={errorStyle}>{errorMessage}</p>
             <div className="mb-3">
               <label htmlFor="messageText" className="form-label">Message</label>
               <textarea value={formData.message} type="text" name="message" onChange={handleInputChange} />
             </div>
-            <p id="messageError">{errorMessage}</p>
+            <p style={errorStyle}>{errorMessage}</p>
             <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
           </form>
         </div>
