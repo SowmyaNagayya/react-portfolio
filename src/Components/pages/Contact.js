@@ -24,10 +24,10 @@ export default function Contact() {
     // First we check to see if the email is not valid, if the Name is empty or if the message is empty. If so we set an error message to be displayed on the page.
     if(!validateName(formData.name)) {
       setErrorMessage("Please Enter Your Name.");
-    }
+    } else
     if(!validateEmail(formData.email)) {
       setErrorMessage("Please Enter a Valid Email Address.");
-    }
+    } else
     if(!validateMessage(formData.message)) {
       setErrorMessage("Please include a message.");
     }
