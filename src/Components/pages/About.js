@@ -16,7 +16,7 @@ export default function About() {
         </div>
       </div>     
       
-      <div class="row mb-4 justify-content-center">
+      <div className="row mb-4 justify-content-center">
         <div className="col-md-auto">
           <img src={myPic} className="rounded-circle my-4 img-responsive center-block d-block mx-auto" alt="Sowmya Pic" style={myPicStyle}/>
         </div>

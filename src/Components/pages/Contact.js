@@ -5,6 +5,12 @@ import React, { useState } from 'react';
 import { validateName, validateEmail, validateMessage } from '../../utils/helpers';
 
 export default function Contact() {
+
+  const contactStyle = {
+    fontweight: 'bold',
+    fontsize:'300px'
+  }
+ 
   //setting their initial values to an empty string
   const defaultFormValues = { name: "", email: "", message: ""}
 
@@ -14,7 +20,6 @@ export default function Contact() {
   const [errorMessageEmail, setErrorEmail] = useState('');
 
 
-  
 
 
   const handleInputChange = (e) => {
@@ -61,21 +66,21 @@ export default function Contact() {
     <div className="container my-5">
       <div className="row justify-content-center">
         <div className="col-6">
-          <h2 className="text-center">Contact Me</h2>
+          <h2 className="text-center" style={contactStyle}>Contact Me</h2>
           <form>
             <div className="mb-3">
               <label htmlFor="nameInput" className="form-label">Name</label>
-              <input type="text" value={formData.name} name="name" onChange={handleInputChange} />
+              <input type="text" className="form-control" value={formData.name} name="name" placeholder="Bob"onChange={handleInputChange} />
             </div>
             
             <div className="mb-3">
-              <label htmlFor="emailInput" className="form-label">Email Address</label>
-              <input value={formData.email} type="text" name="email" onChange={handleInputChange} />
+              <label htmlFor="emailInput" className="form-label">Email</label>
+              <input value={formData.email} type="text" className="form-control" name="email" placeholder="Bob@mail.com" onChange={handleInputChange} />
             </div>
             
             <div className="mb-3">
               <label htmlFor="messageText" className="form-label">Message</label>
-              <textarea value={formData.message} type="text" name="message" onChange={handleInputChange} />
+              <textarea value={formData.message} type="text" className="form-control" name="message" placeholder="Some Text Here" onChange={handleInputChange} />
             </div>
             <p style={errorStyle}>{errorMessageUser}</p>
             <p style={errorStyle}>{errorMessageEmail}</p>

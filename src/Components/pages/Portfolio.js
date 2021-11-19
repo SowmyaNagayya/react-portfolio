@@ -28,6 +28,7 @@ export default function Portfolio() {
                       <h5 className="card-title">Book Review</h5>
                       <p className="card-text">The objective of this website was to create an application where you can publish and rate books they have previously read.</p>
                       <a href="https://github.com/annsabie/bookreviews" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://sabiebookreview.herokuapp.com/" className="btn btn-success">Book App</a>
                     </div>
                   </div>
@@ -39,6 +40,7 @@ export default function Portfolio() {
                       <h5 className="card-title">Movie Advisor</h5>
                       <p className="card-text">The app is for a user to search popular movies to see what they may want to watch. It gives the rating, genre, release date, description and title of the movie.</p>
                       <a href="https://github.com/Joe96/movies_api" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://joe96.github.io/movies_api/" className="btn btn-success">Movie App</a>
                     </div>
                   </div>
@@ -48,8 +50,9 @@ export default function Portfolio() {
                   <img src={Weatherdashboard} className="card-img-top" alt="WeatherDashboard Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Weather Forecast</h5>
-                      <p className="card-text">Here weather-dashboard app to see the weather outlook for multiple cities for current weather forecast and 5days forecast SO THAT we can plan a trip accordingly.</p>
+                      <p className="card-text">Here weather-dashboard app to see the weather outlook for multiple cities for current weather forecast and 5days.</p>
                       <a href="https://github.com/SowmyaNagayya/weather-dashboard" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyanagayya.github.io/weather-dashboard/" className="btn btn-success">Weather App</a>
                     </div>
                   </div>
@@ -59,8 +62,9 @@ export default function Portfolio() {
                     <img src={Codequiz} className="card-img-top" alt="CodeQuiz Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Code Quiz</h5>
-                      <p className="card-text">Here a Beginner JavaScript quiz that ask timed questions, deducts time for wrong answers, and allows user to set initials if they have reached the highest score.</p>
+                      <p className="card-text">Here a Beginner JavaScript quiz that ask timed questions, deducts time for wrong answers.</p>
                       <a href="https://github.com/SowmyaNagayya/codequiz" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyanagayya.github.io/codequiz/" className="btn btn-success">Quiz App</a>
                     </div>
                   </div>
@@ -72,6 +76,7 @@ export default function Portfolio() {
                       <h5 className="card-title">Tech Blog</h5>
                       <p className="card-text">Here created a Tech Blog that facilitates communication between developers.</p>
                       <a href="https://github.com/SowmyaNagayya/Tech-Blog" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyatech-blog.herokuapp.com/" className="btn btn-success">TechBlog App</a>
                     </div>
                   </div>
@@ -83,6 +88,7 @@ export default function Portfolio() {
                       <h5 className="card-title">Password Generator</h5>
                       <p className="card-text">Here Generating a new password when we click randamoly on Generate Password.</p>
                       <a href="https://github.com/SowmyaNagayya/hw03" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyanagayya.github.io/hw03/" className="btn btn-success">Password Generator</a>
                     </div>
                   </div>
