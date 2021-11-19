@@ -8,10 +8,16 @@ import PasswordGen from "../../images/password.png";
 
 export default function Portfolio() {
 
+  //Styling
+  const portfolioStyle = {
+    fontweight: 'bold',
+    fontsize:'300px'
+  }
+
   return (
     <div id="project" className="offset container mt-3 pb-5">
         <div className="post-heading text-center">
-            <h3 className="display-4 font-weight-bold">Projects</h3>
+            <h3 className="display-4 font-weight-bold" style={portfolioStyle}>Portfolio</h3>
             
         </div>
         <div className="row">
