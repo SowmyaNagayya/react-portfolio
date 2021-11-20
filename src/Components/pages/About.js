@@ -24,10 +24,11 @@ export default function About() {
 
       <div className="row mx-3">
         <h6 className="my-5 text-center">My name is Sowmya Nagayya and I'm a Computer Science Engineer of the Vishveshwaraya University, Karnataka, India</h6>
-        <p className="mb-4">abc</p>
-        <p className="mb-4">abc</p>
-        <p className="mb-4">abc</p>
-        <p className="mb-4">abc</p>
+        <p className="mb-4">I am passionate about building large scale web applications using latest technologies.</p>
+        <p className="mb-4">I attended bootcamp trainings from University of Minnesota, Minneapolis. \n 
+        Where I learned about building web applications using web technologies such as HTML, Javascripting, jQuery, ReactJS. </p>
+        <p className="mb-4">CSS and bootstrap were the tools I used for designing and styling my front end pages for my training projects. </p>
+        <p className="mb-4">I am very much impressed working with ReactJS, with the boootup speed </p>
       </div>
     </div>
   );
