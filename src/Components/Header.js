@@ -6,23 +6,29 @@ import { FaHome, FaUser, FaFolderOpen, FaFileAlt, FaEnvelopeOpenText } from "rea
 //Destructuring
 export default function Header({currentPage, handlePageChange}) {
 
-  const faStyle = { color: "black", padding: "5px", fontSize: "3em" };
-  const fontStyle ={ fontweight: "bolder",color:"black",textDecoration:"none", fontSize:"25px"};
-  // const fontnav ={ marginleft: "30px"};
-  // const headercolor ={color: "4A718B"}
+  const faStyle = { color: "black", padding: "5px", fontSize: "1.5em" };
+  const fontStyle ={ textDecoration:"none", fontSize:"20px"};
 
   return (
     <div id="header" className="w-100" style={{backgroundImage:`url(${HeaderImage})`,backgroundSize:"cover"}}>
-       <nav className="navbar navbar-expand-lg navbar-light ">
-         <a className="navbar-link" href="#about"  style={fontStyle} onClick={() => handlePageChange("About")}>
+       <nav className="navbar navbar-expand-lg navbar-dark ">
+         <a className="nav-link" href="#about" style={{fontSize:"30px", color:"black", fontFamily:"lato, san-serif", fontStyle:"unset",}} onClick={() => handlePageChange("About")}>
            <div className= "bi d-block mx-auto mb-1"><FaHome style={faStyle}/>
          
            </div>
            Sowmya Nagayya
          </a>
+       
+
          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
            <span className="navbar-toggler-icon"></span>
          </button>
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;
          &nbsp;&nbsp;&nbsp;
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">

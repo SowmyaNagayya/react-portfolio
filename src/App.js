@@ -6,6 +6,7 @@ import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Contact from "./components/pages/Contact";
 
+
 export default function App() {
     // Use state to keep track of which page to render
     const [currentPage, setCurrentPage] = useState("About");
