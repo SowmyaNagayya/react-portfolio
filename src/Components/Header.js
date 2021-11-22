@@ -10,8 +10,8 @@ export default function Header({currentPage, handlePageChange}) {
   
 
   return (
-    <div id="header" className="w-100" style={{backgroundImage:`url(${HeaderImage})`,backgroundSize:"cover"}}>
-       <nav className="navbar navbar-expand-lg navbar-dark ">
+    <div className="w-100" style={{backgroundImage:`url(${HeaderImage})`,backgroundSize:"cover"}}>
+       <nav  id="header" className="navbar navbar-expand-lg navbar-dark ">
          <a className="nav-link" href="#about" style={{fontSize:"30px", color:"black", fontFamily:"lato, san-serif", fontStyle:"unset",}} onClick={() => handlePageChange("About")}>
            <div className= "bi d-block mx-auto mb-1"><FaHome style={faStyle}/>
          
@@ -30,8 +30,8 @@ export default function Header({currentPage, handlePageChange}) {
          &nbsp;&nbsp;&nbsp;
          &nbsp;&nbsp;&nbsp;
          &nbsp;&nbsp;&nbsp;
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
+        <div  className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div  className="navbar-nav">
             <a className="nav-link" href="#about" style={{fontFamily:"monospace", fontSize:"25px"}} onClick={() => handlePageChange("About")} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
             <div className="bi d-block mx-auto mb-1"><FaUser style={faStyle}/></div>
               About
