@@ -16,17 +16,17 @@ export default function Resume() {
           <h2 className="text-center mb-3">Resume</h2>
 
           <div className="col-3 text-center mt-2">
-            <button className="btn" data-bs-toggle="collapse" href="#">View Resume</button>
+            <button className="btn" data-bs-toggle="collapse" href="#collapseExample">View Resume</button>
           </div>
 
           <div className="col-3 text-center">
-            <button className="btn"><a className="btn" href="" download="Sowmya Nagayya - Resume">Download</a></button>
+            <button className="btn"><a className="btn" href="../../images/Sowmya_resume.pdf" download="Sowmya Nagayya - Resume">Download</a></button>
           </div>
         </div>
 
         <div className="d-flex justify-content-center mb-5">
           <div id="collapseExample" className="collapse">
-            <embed src="" width="500px" height="650px" />
+            <embed src="../../images/Sowmya_resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="500px" height="650px" />
           </div>
         </div>
 

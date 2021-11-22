@@ -7,7 +7,7 @@ import { FaHome, FaUser, FaFolderOpen, FaFileAlt, FaEnvelopeOpenText } from "rea
 export default function Header({currentPage, handlePageChange}) {
 
   const faStyle = { color: "black", padding: "5px", fontSize: "1.5em" };
-  const fontStyle ={ textDecoration:"none", fontSize:"20px"};
+  
 
   return (
     <div id="header" className="w-100" style={{backgroundImage:`url(${HeaderImage})`,backgroundSize:"cover"}}>
@@ -32,19 +32,19 @@ export default function Header({currentPage, handlePageChange}) {
          &nbsp;&nbsp;&nbsp;
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" href="#about" style={fontStyle} onClick={() => handlePageChange("About")} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+            <a className="nav-link" href="#about" style={{fontFamily:"monospace", fontSize:"25px"}} onClick={() => handlePageChange("About")} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
             <div className="bi d-block mx-auto mb-1"><FaUser style={faStyle}/></div>
               About
             </a>
-            <a className="nav-link" href="#portfolio#" style={fontStyle} onClick={() => handlePageChange("Portfolio")} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+            <a className="nav-link" href="#portfolio#" style={{fontFamily:"monospace", fontSize:"25px"}} onClick={() => handlePageChange("Portfolio")} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
               <div className="bi d-block mx-auto mb-1"><FaFolderOpen style={faStyle}/></div>
               Portfolio
             </a>
-            <a className="nav-link" href="#resume" style={fontStyle} onClick={() => handlePageChange("Resume")} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+            <a className="nav-link" href="#resume" style={{fontFamily:"monospace", fontSize:"25px"}} onClick={() => handlePageChange("Resume")} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
               <div className="bi d-block mx-auto mb-1"><FaFileAlt style={faStyle}/></div>
               Resume
             </a>
-            <a className="nav-link" href="#contact" style={fontStyle} onClick={() => handlePageChange("Contact")} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+            <a className="nav-link" href="#contact" style={{fontFamily:"monospace", fontSize:"25px"}} onClick={() => handlePageChange("Contact")} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
               <div className="bi d-block mx-auto mb-1"><FaEnvelopeOpenText style={faStyle}/></div>
               Contact
             </a>

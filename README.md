@@ -36,7 +36,7 @@ I have created a React portfolio to promote my work. I have used React to handle
 
 ## Screenshot of homepage
 
-![Here is a screen shot of the final page/homepage.](../../images/portfolio.png)
+![Here is a screen shot of the final page/homepage.](../../images/portfolio.png).
 
 ## Link to deployed page
 
