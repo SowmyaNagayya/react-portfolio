@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from "../../images/Sowmya_resume.pdf";
+import resume from "../../images/Sowmya_resume.pdf";
 
 export default function Resume() {
 
@@ -21,13 +21,13 @@ export default function Resume() {
           </div>
 
           <div className="col-3 text-center">
-            <button className="btn"><a className="btn" href={Resume} download="Sowmya Nagayya - Resume">Download</a></button>
+            <button className="btn"><a className="btn" href={resume} download="Sowmya Nagayya - Resume">Download</a></button>
           </div>
         </div>
 
         <div className="d-flex justify-content-center mb-5">
           <div id="collapseExample" className="collapse">
-            <embed src={Resume} width="500px" height="650px" />
+            <embed src={resume} width="500px" height="650px" />
           </div>
         </div>
 
