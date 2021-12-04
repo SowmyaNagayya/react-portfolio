@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../images/Sowmya_resume.pdf";
+import resume from "../../images/Sowmya_Nagayya_Resume.pdf";
 
 export default function Resume() {
 
