@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4050bd82.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c836bc30.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c836bc30.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.0b125f2d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0b125f2d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
     "static/css/2.383c0125.chunk.css": "/react-portfolio/static/css/2.383c0125.chunk.css",
@@ -13,7 +13,7 @@
     "static/css/main.4050bd82.chunk.css.map": "/react-portfolio/static/css/main.4050bd82.chunk.css.map",
     "static/js/2.c4d3b181.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c4d3b181.chunk.js.LICENSE.txt",
     "static/media/Bookimage.39a6bf24.jpg": "/react-portfolio/static/media/Bookimage.39a6bf24.jpg",
-    "static/media/Sowmya_resume.5bd5104f.pdf": "/react-portfolio/static/media/Sowmya_resume.5bd5104f.pdf",
+    "static/media/Sowmya_Nagayya_Resume.24ad6947.pdf": "/react-portfolio/static/media/Sowmya_Nagayya_Resume.24ad6947.pdf",
     "static/media/headerimage.66de12f5.png": "/react-portfolio/static/media/headerimage.66de12f5.png",
     "static/media/password.e2e44a46.png": "/react-portfolio/static/media/password.e2e44a46.png",
     "static/media/quiz.96fcdee5.jpg": "/react-portfolio/static/media/quiz.96fcdee5.jpg",
@@ -25,6 +25,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.c4d3b181.chunk.js",
     "static/css/main.4050bd82.chunk.css",
-    "static/js/main.c836bc30.chunk.js"
+    "static/js/main.0b125f2d.chunk.js"
   ]
 }
