@@ -4,7 +4,7 @@ import Bookreview from "../../images/Bookimage.jpg";
 import Codequiz from "../../images/quiz.jpg";
 import Techblog from "../../images/tech.jpg";
 import Weatherdashboard from "../../images/weather.jpg";
-import PasswordGen from "../../images/password.png";
+import Friendlymessanger from "../../images/messanger.jpg";
 
 export default function Portfolio() {
 
@@ -47,6 +47,18 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6 col-12 pb-5">
                 <div className="card">
+                    <img src={Friendlymessanger} className="card-img-top" alt="Messanger Image"/>
+                    <div className="card-body">
+                      <h5 className="card-title">Friendly Group Chat</h5>
+                      <p className="card-text">This is a group chat application where you can message your friends..</p>
+                      <a href="https://github.com/SowmyaNagayya/friendly-group-chats" target="_blank" className="btn btn-success">GitHub Repo</a>
+                      &nbsp;&nbsp;&nbsp;
+                      <a href="https://friendly-group.herokuapp.com/" className="btn btn-success">Friendly Chat App</a>
+                    </div>
+                  </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12 pb-5">
+                <div className="card">
                   <img src={Weatherdashboard} className="card-img-top" alt="WeatherDashboard Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Weather Forecast</h5>
@@ -78,18 +90,6 @@ export default function Portfolio() {
                       <a href="https://github.com/SowmyaNagayya/Tech-Blog" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyatech-blog.herokuapp.com/" className="btn btn-success">TechBlog App</a>
-                    </div>
-                  </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12 pb-5">
-                <div className="card">
-                    <img src={PasswordGen} className="card-img-top" alt="Password Image"/>
-                    <div className="card-body">
-                      <h5 className="card-title">Password Generator</h5>
-                      <p className="card-text">Here Generating a new password when we click randamoly on Generate Password.</p>
-                      <a href="https://github.com/SowmyaNagayya/hw03" target="_blank" className="btn btn-success">GitHub Repo</a>
-                      &nbsp;&nbsp;&nbsp;
-                      <a href="https://sowmyanagayya.github.io/hw03/" className="btn btn-success">Password Generator</a>
                     </div>
                   </div>
             </div>
