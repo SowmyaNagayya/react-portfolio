@@ -1,4 +1,4 @@
-# Homework 20: react_portfolio
+# Homework 20: sowmya_portfolio
 
 ## License
 
@@ -40,7 +40,7 @@ I have created a React portfolio to promote my work. I have used React to handle
 
 ## Link to deployed page
 
-You can also refer to this [gitHub](https://sowmyanagayya.github.io/react-portfolio/).
+You can also refer to this [gitHub](https://sowmyanagayya.github.io/sowmya_portfolio/).
 
 ## Questions
 
