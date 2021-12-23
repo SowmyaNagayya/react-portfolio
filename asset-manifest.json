@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sowmya_portfolio/static/css/main.4050bd82.chunk.css",
-    "main.js": "/sowmya_portfolio/static/js/main.391be33f.chunk.js",
-    "main.js.map": "/sowmya_portfolio/static/js/main.391be33f.chunk.js.map",
+    "main.js": "/sowmya_portfolio/static/js/main.289c7fa6.chunk.js",
+    "main.js.map": "/sowmya_portfolio/static/js/main.289c7fa6.chunk.js.map",
     "runtime-main.js": "/sowmya_portfolio/static/js/runtime-main.54dc48e4.js",
     "runtime-main.js.map": "/sowmya_portfolio/static/js/runtime-main.54dc48e4.js.map",
     "static/css/2.383c0125.chunk.css": "/sowmya_portfolio/static/css/2.383c0125.chunk.css",
@@ -13,7 +13,7 @@
     "static/css/main.4050bd82.chunk.css.map": "/sowmya_portfolio/static/css/main.4050bd82.chunk.css.map",
     "static/js/2.2b16f2d5.chunk.js.LICENSE.txt": "/sowmya_portfolio/static/js/2.2b16f2d5.chunk.js.LICENSE.txt",
     "static/media/Bookimage.39a6bf24.jpg": "/sowmya_portfolio/static/media/Bookimage.39a6bf24.jpg",
-    "static/media/Sowmya_Nagayya_Resume.24ad6947.pdf": "/sowmya_portfolio/static/media/Sowmya_Nagayya_Resume.24ad6947.pdf",
+    "static/media/Sowmya_Nagayya_Resume.8fbaae8f.pdf": "/sowmya_portfolio/static/media/Sowmya_Nagayya_Resume.8fbaae8f.pdf",
     "static/media/headerimage.66de12f5.png": "/sowmya_portfolio/static/media/headerimage.66de12f5.png",
     "static/media/messanger.72e7edde.jpg": "/sowmya_portfolio/static/media/messanger.72e7edde.jpg",
     "static/media/quiz.96fcdee5.jpg": "/sowmya_portfolio/static/media/quiz.96fcdee5.jpg",
@@ -25,6 +25,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.2b16f2d5.chunk.js",
     "static/css/main.4050bd82.chunk.css",
-    "static/js/main.391be33f.chunk.js"
+    "static/js/main.289c7fa6.chunk.js"
   ]
 }
