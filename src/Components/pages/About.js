@@ -3,7 +3,7 @@ import myPic from "../../images/sowmya.jpg";
 import myStyle from "../styles/main.css";
 export default function About() {
 
-  //style for profile image
+  //style for profile images
   const myPicStyle = {
     maxHeight:'300px',
     maxWidth:'300px'
