@@ -26,7 +26,8 @@ export default function Portfolio() {
                     <img src={Bookreview} className="card-img-top" alt="BookReview Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Book Review</h5>
-                      <p className="card-text">The objective of this website was to create an application where you can publish and rate books they have previously read.</p>
+                      <p className="card-text">The objective of this website was to create an application where you can publish and rate books they have previously read.
+                      Technologies:Javascript,CSS,Handlebars,Mysql</p>
                       <a href="https://github.com/annsabie/bookreviews" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://sabiebookreview.herokuapp.com/" className="btn btn-success">Book App</a>
@@ -38,7 +39,8 @@ export default function Portfolio() {
                     <img src={Movieadvisor} className="card-img-top" alt="Picture website showing Movie Advisor App" />
                     <div className="card-body">
                       <h5 className="card-title">Movie Advisor</h5>
-                      <p className="card-text">The app is for a user to search popular movies to see what they may want to watch. It gives the rating, genre, release date, description and title of the movie.</p>
+                      <p className="card-text">The app is for a user to search popular movies to see what they may want to watch. It gives the rating, genre, release date, description and title of the movie.
+                      Technologies:Javascript, APIs,Bootstrap,CSS</p>
                       <a href="https://github.com/Joe96/movies_api" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://joe96.github.io/movies_api/" className="btn btn-success">Movie App</a>
@@ -50,7 +52,8 @@ export default function Portfolio() {
                     <img src={Friendlymessanger} className="card-img-top" alt="Messanger Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Friendly Group Chat</h5>
-                      <p className="card-text">This is a group chat application where you can message your friends..</p>
+                      <p className="card-text">This is a group chat application where you can message your friends.
+                      Technologies:React.js,Nodes.js,Express,MongoDB</p>
                       <a href="https://github.com/SowmyaNagayya/friendly-group-chats" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://friendly-group.herokuapp.com/" className="btn btn-success">Friendly Chat App</a>
@@ -62,7 +65,8 @@ export default function Portfolio() {
                   <img src={Weatherdashboard} className="card-img-top" alt="WeatherDashboard Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Weather Forecast</h5>
-                      <p className="card-text">Here weather-dashboard app to see the weather outlook for multiple cities for current weather forecast and 5days.</p>
+                      <p className="card-text">Here weather-dashboard app to see the weather outlook for multiple cities for current weather forecast and 5days.
+                      Technologies:Javascript,APIs,Bootstrap,CSS</p>
                       <a href="https://github.com/SowmyaNagayya/weather-dashboard" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyanagayya.github.io/weather-dashboard/" className="btn btn-success">Weather App</a>
@@ -74,7 +78,8 @@ export default function Portfolio() {
                     <img src={Codequiz} className="card-img-top" alt="CodeQuiz Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Code Quiz</h5>
-                      <p className="card-text">Here a Beginner JavaScript quiz that ask timed questions, deducts time for wrong answers.</p>
+                      <p className="card-text">Here a Beginner JavaScript quiz that ask timed questions, deducts time for wrong answers.
+                      Technologies:Javascript,CSS</p>
                       <a href="https://github.com/SowmyaNagayya/codequiz" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyanagayya.github.io/codequiz/" className="btn btn-success">Quiz App</a>
@@ -86,7 +91,8 @@ export default function Portfolio() {
                     <img src={Techblog} className="card-img-top" alt="TechBlog Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Tech Blog</h5>
-                      <p className="card-text">Here created a Tech Blog that facilitates communication between developers.</p>
+                      <p className="card-text">Here created a Tech Blog that facilitates communication between developers.
+                      Technologies:Javascript,CSS,Handlebars,Mysql</p>
                       <a href="https://github.com/SowmyaNagayya/Tech-Blog" target="_blank" className="btn btn-success">GitHub Repo</a>
                       &nbsp;&nbsp;&nbsp;
                       <a href="https://sowmyatech-blog.herokuapp.com/" className="btn btn-success">TechBlog App</a>
